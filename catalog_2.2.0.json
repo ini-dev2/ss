@@ -48,9 +48,9 @@
         "UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider"
     ],
     "m_InternalIds": [
-        "{AddressablesUuidPath}/GroupName-oculus/Android/(tourname)_scenes_all_636dc9be157cc5511bbff6943dfbf593.bundle",
-        "{AddressablesUuidPath}/GroupName-oculus/Android/15271ecd58e9dd4e1670020c5e702a03_monoscripts_d197f814d48d0f33c2320544587ed569.bundle",
-        "{AddressablesUuidPath}/GroupName-oculus/Android/15271ecd58e9dd4e1670020c5e702a03_unitybuiltinassets_47e4c45f3dd2798356e43dfafb60cef6.bundle",
+        "https://github.com/ini-dev2/ss/raw/refs/heads/main(tourname)_scenes_all_636dc9be157cc5511bbff6943dfbf593.bundle",
+        "https://github.com/ini-dev2/ss/raw/refs/heads/main/15271ecd58e9dd4e1670020c5e702a03_monoscripts_d197f814d48d0f33c2320544587ed569.bundle",
+        "https://github.com/ini-dev2/ss/raw/refs/heads/main/15271ecd58e9dd4e1670020c5e702a03_unitybuiltinassets_47e4c45f3dd2798356e43dfafb60cef6.bundle",
         "Assets/Scenes/SampleScene1.unity"
     ],
     "m_KeyDataString": "BgAAAAA9AAAAKHRvdXJuYW1lKV9zY2VuZXNfYWxsXzYzNmRjOWJlMTU3Y2M1NTExYmJmZjY5NDNkZmJmNTkzLmJ1bmRsZQBUAAAAMTUyNzFlY2Q1OGU5ZGQ0ZTE2NzAwMjBjNWU3MDJhMDNfbW9ub3NjcmlwdHNfZDE5N2Y4MTRkNDhkMGYzM2MyMzIwNTQ0NTg3ZWQ1NjkuYnVuZGxlAFsAAAAxNTI3MWVjZDU4ZTlkZDRlMTY3MDAyMGM1ZTcwMmEwM191bml0eWJ1aWx0aW5hc3NldHNfNDdlNGM0NWYzZGQyNzk4MzU2ZTQzZGZhZmI2MGNlZjYuYnVuZGxlAAwAAABTYW1wbGVTY2VuZTEAIAAAADU1ZGFjY2MwOWEzYjY5NjQ3YmJhYjE0NWI1NGEzYWIzAAoAAAAtMjAyNjUzMzE0",
