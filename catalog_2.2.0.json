@@ -48,7 +48,7 @@
         "UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider"
     ],
     "m_InternalIds": [
-        "https://github.com/ini-dev2/ss/raw/refs/heads/main(tourname)_scenes_all_636dc9be157cc5511bbff6943dfbf593.bundle",
+        "https://github.com/ini-dev2/ss/raw/refs/heads/main/(tourname)_scenes_all_636dc9be157cc5511bbff6943dfbf593.bundle",
         "https://github.com/ini-dev2/ss/raw/refs/heads/main/15271ecd58e9dd4e1670020c5e702a03_monoscripts_d197f814d48d0f33c2320544587ed569.bundle",
         "https://github.com/ini-dev2/ss/raw/refs/heads/main/15271ecd58e9dd4e1670020c5e702a03_unitybuiltinassets_47e4c45f3dd2798356e43dfafb60cef6.bundle",
         "Assets/Scenes/SampleScene1.unity"
