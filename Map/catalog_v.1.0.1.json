@@ -1,72 +1,185 @@
 {
-    "m_LocatorId": "AddressablesMainContentCatalog",
-    "m_BuildResultHash": "af1f6031a05eead07fe49839a884bc56",
-    "m_InstanceProviderData": {
-        "m_Id": "UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider",
-        "m_ObjectType": {
-            "m_AssemblyName": "Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "m_ClassName": "UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider"
-        },
-        "m_Data": ""
-    },
-    "m_SceneProviderData": {
-        "m_Id": "UnityEngine.ResourceManagement.ResourceProviders.SceneProvider",
-        "m_ObjectType": {
-            "m_AssemblyName": "Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "m_ClassName": "UnityEngine.ResourceManagement.ResourceProviders.SceneProvider"
-        },
-        "m_Data": ""
-    },
-    "m_ResourceProviderData": [
+  "session_uuid": "04b1fb9b-4d79-4fcd-a325-a1c1931d22d6",
+  "visit_uuid": "82594e48-6005-4b5a-a1e7-3ac2ef673400",
+  "visit_service_uuid": "5def6ea0-9df3-41e9-95ff-5ede0ec3bb62",
+  "service": {
+    "uuid": "11e2cb64-efa0-4265-ae2f-28f9af137e00",
+    "type_service_uuid": "21ab982f-0c9a-40c0-9fd5-d135c504233a",
+    "name": "Услуга для ....",
+    "name_eng": "Service for ....",
+    "description": "Эта услуга нужна для тестирования",
+    "description_eng": "This service is needed for testing",
+    "cost": 2500,
+    "is_active": true,
+    "created_by_uuid": "ef41700c-218b-4107-a4ce-89ee0cee448d",
+    "updated_by_uuid": null,
+    "date_create": "2026-03-16T16:15:14.634698Z",
+    "date_update": null
+  },
+  "activities": [
+    {
+      "service_activity_uuid": "92b4fd15-d16c-4a7d-b03c-28c7f1a7a32c",
+      "activity_uuid": "be4a3a39-6a2d-4469-841c-4d42f6ff8be6",
+      "name": "Тесты",
+      "name_eng": "Tests",
+      "description": "-",
+      "description_eng": "-",
+      "activity_type_uuid": "dbf34854-7d16-4db4-ac40-8655a09d80e5",
+      "url": "-",
+      "created_by": "ef41700c-218b-4107-a4ce-89ee0cee448d",
+      "updated_by": null,
+      "status": true,
+      "to_delete": false,
+      "created_at": "2026-03-16T19:01:26.067000Z",
+      "updated_at": null,
+      "moderation_status_uuid": "1a632b63-9b36-49e4-93a5-9967068ae1c0",
+      "activity_type": {
+        "uuid": "dbf34854-7d16-4db4-ac40-8655a09d80e5",
+        "name": "Тест-опросник",
+        "name_eng": "Questionnaire Test",
+        "description": null,
+        "description_eng": null
+      },
+      "tests": [
         {
-            "m_Id": "UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider",
-            "m_ObjectType": {
-                "m_AssemblyName": "Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-                "m_ClassName": "UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider"
-            },
-            "m_Data": ""
+          "activity_test_uuid": "c7d16d24-0fad-4cdb-8ac7-84b477128a73",
+          "activity_uuid": "be4a3a39-6a2d-4469-841c-4d42f6ff8be6",
+          "test_uuid": "6d2662a1-4ec1-4fbe-87e4-745d2fdbbdde",
+          "ord": 1,
+          "is_required": true,
+          "created_at": "2026-03-16T22:49:50.573000Z",
+          "uuid": "6d2662a1-4ec1-4fbe-87e4-745d2fdbbdde",
+          "created_by": "ef41700c-218b-4107-a4ce-89ee0cee448d",
+          "title_psy": "Методика диагностики самооценки психических состояний Г. Айзенка",
+          "title_client": "Тест самооценки психических состояний",
+          "description_psy": "Методика Г. Айзенка предназначена для количественной оценки четырёх базовых эмоциональных состояний личности: тревожность, фрустрация, агрессивность и ригидность. Диагностическая ценность методики заключается в выявлении преобладающих состояний, которые могут оказывать влияние на социальную адаптацию, эмоциональную устойчивость и поведение пациента. Рекомендуется к применению в клинической психологии, психиатрии, а также в психодиагностической практике для мониторинга динамики состояния пациента.",
+          "instruction_psy": "1. Обеспечьте спокойную и нейтральную обстановку для проведения теста.\\n2. Дайте испытуемому бланк с утверждениями и шкалой ответов.\\n3. Объясните, что важно отвечать быстро и честно, не обдумывая слишком долго.\\n4. За каждый ответ начисляйте баллы: «часто» = 2, «изредка» = 1, «не бывает» = 0.\\n5. Подсчитайте результаты отдельно по каждой подшкале: 1–10 — Тревожность, 11–20 — Фрустрация, 21–30 — Агрессивность, 31–40 — Ригидность.\\n6. Сравните показатели с нормативными значениями и сделайте интерпретацию.\\n7. При необходимости обсудите результаты с пациентом и предложите рекомендации.",
+          "instruction_client": "Вам будут предложены утверждения. Для каждого выберите один из вариантов:\\n— «состояние часто присуще» (2 балла)\\n— «это состояние бывает, но изредка» (1 балл)\\n— «совсем не бывает» (0 баллов)\\nОтвечайте честно и не раздумывайте слишком долго. По результатам вы узнаете, какие из четырёх состояний у вас выражены сильнее.",
+          "key_description": "Метод количественной оценки эмоциональных состояний: тревожность, фрустрация, агрессивность, ригидность. Баллы суммируются по подшкалам: 1–10 — Тревожность, 11–20 — Фрустрация, 21–30 — Агрессивность, 31–40 — Ригидность.",
+          "is_active": true,
+          "title_psy_eng": "The method of diagnosis of self-assessment of mental states by G. Eysenck",
+          "title_client_eng": "Mental State Self-assessment test",
+          "description_psy_eng": "The method of G. Eysenck is designed to quantify four basic emotional states of a personality: anxiety, frustration, aggressiveness, and rigidity. The diagnostic value of the technique is to identify the prevailing conditions that may affect the patient’s social adaptation, emotional stability, and behavior. It is recommended for use in clinical psychology, psychiatry, as well as in psychodiagnostic practice to monitor the dynamics of the patient’s condition.",
+          "instruction_psy_eng": "1. Provide a calm and neutral environment for the test conduction.\\n2. Give the subject a form with statements and a scale of answers.\\n3. Explain that responding quickly and honestly, without thinking too long, is of key importance.\\n4. For each answer, score points as follows: \"often\" = 2, \"occasionally\" = 1, \"does not happen\" = 0.\\n5. Calculate the results separately for each subscale: 1-10 — Anxiety, 1-20 — Frustration, 21-30 — Aggressiveness, 31-40 — Rigidity.\\n6. Compare the indicators with the normative values and make an interpretation.\\n7. If necessary, discuss the results with the patient and offer them recommendations.",
+          "instruction_client_eng": "You will be offered some statements. For each one, choose one of the following options:\\n— \"The condition is often inherent\" (2 points)\\n— \"This condition happens, but rarely\" (1 point)\\n— \"It does not happen at all\" (0 points)\\nPlease provide honest answers and don't hesitate for too long. Based on the results obtained, you will find out which of the four states you have more pronounced.",
+          "key_description_eng": "A method for quantifying emotional states: anxiety, frustration, aggressiveness, and rigidity. The scores are summarized by subscales: 1–10 – Anxiety, 11–20 – Frustration, 21–30 – Aggressiveness, 31–40 – Rigidity."
         },
         {
-            "m_Id": "UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider",
-            "m_ObjectType": {
-                "m_AssemblyName": "Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-                "m_ClassName": "UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider"
-            },
-            "m_Data": ""
+          "activity_test_uuid": "64bbb4f2-92b5-43b3-bf51-feddde8927cb",
+          "activity_uuid": "be4a3a39-6a2d-4469-841c-4d42f6ff8be6",
+          "test_uuid": "dd205cc3-d4ca-4332-8ee7-ac98d025c3d9",
+          "ord": 1,
+          "is_required": true,
+          "created_at": "2026-03-16T22:49:47.462000Z",
+          "uuid": "dd205cc3-d4ca-4332-8ee7-ac98d025c3d9",
+          "created_by": "ef41700c-218b-4107-a4ce-89ee0cee448d",
+          "title_psy": "Опросник на скрининг посттравматического стрессового расстройства (ПТСР)",
+          "title_client": "Скрининг ПТСР",
+          "description_psy": "Краткий валидизированный опросник, предназначенный для первичного выявления симптомов посттравматического стрессового расстройства (ПТСР). Используется как инструмент раннего скрининга в клинической практике и психологическом консультировании для определения группы риска и необходимости дальнейшей диагностики. Позволяет быстро оценить наличие симптомов, связанных с переживанием травматического события, включая навязчивые воспоминания, избегающее поведение, повышенную возбудимость и негативные изменения в мышлении и настроении.",
+          "instruction_psy": "1. Обеспечьте безопасную и спокойную обстановку перед началом теста.\\n2. Поясните пациенту, что опросник связан с его реакциями на травматическое событие.\\n3. Задавайте вопросы в соответствии с бланком, уточняя, испытывал ли пациент симптом минимум дважды за последнюю неделю.\\n4. За каждый ответ «Да» начисляйте 1 балл.\\n5. Суммируйте баллы: результат ≥ 6 свидетельствует о высокой вероятности наличия ПТСР и необходимости проведения расширенной диагностики (например, CAPS-5).\\n6. Обсудите с пациентом результаты и при необходимости предложите направление на консультацию психиатра или клинического психолога.",
+          "instruction_client": "Эта анкета связана с вашими реакциями на травматическое событие. Для каждого вопроса ответьте «Да», если вы испытывали этот симптом минимум дважды за последние 7 дней. Отвечайте честно — это поможет понять, нужно ли обратиться за дополнительной помощью.",
+          "key_description": "Скрининг-инструмент для оценки симптомов ПТСР. Подсчёт: за каждый ответ «Да» — 1 балл. Результат ≥ 6 — повышенный риск, требуется дальнейшая диагностика.",
+          "is_active": true,
+          "title_psy_eng": "Post-traumatic Stress Disorder (PTSD) Screening Questionnaire",
+          "title_client_eng": "Screening for PTSD",
+          "description_psy_eng": "A brief, validated questionnaire designed for the initial detection of symptoms of post-traumatic stress disorder (PTSD). It is used as an early screening tool in clinical practice and psychological counseling to determine the risk group and the need for further diagnosis. It allows you to quickly assess the presence of symptoms associated with experiencing a traumatic event, including obsessive memories, avoidant behavior, increased excitability, and negative changes in thinking and mood.",
+          "instruction_psy_eng": "1. Provide a safe and calm environment before starting the test.\\n2. Explain to the patient that the questionnaire is related to his reactions to a traumatic event.\\n3. Ask questions according to the form, specifying whether the patient has experienced a symptom at least twice in the last week.\\n4. For each \"Yes\" answer, award 1 point.\\n5. Summarize the scores: a score of ≥ 6 indicates a high probability of having PTSD and the need for advanced diagnosis (for example, CAPS-5).\\n6. Discuss the results with the patient and suggest a referral to a psychiatrist or clinical psychologist if necessary.",
+          "instruction_client_eng": "This questionnaire is related to your reactions to a traumatic event. For each question, answer \"Yes\" if you have experienced this symptom at least twice during the last 7 days. Please provide honest answers—it will help you understand if you need to seek additional help.",
+          "key_description_eng": "The PTSD symptom assessment screening tool. Scoring: For each \"Yes\" answer, 1 point. A result ≥ 6 indicates an increased risk, and further diagnosis is required."
         },
         {
-            "m_Id": "UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider",
-            "m_ObjectType": {
-                "m_AssemblyName": "Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-                "m_ClassName": "UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider"
-            },
-            "m_Data": ""
+          "activity_test_uuid": "a5af7a58-57ea-420e-9180-a83df9fc0827",
+          "activity_uuid": "be4a3a39-6a2d-4469-841c-4d42f6ff8be6",
+          "test_uuid": "1988d446-8cdb-4368-8bdc-cd786abbeade",
+          "ord": 1,
+          "is_required": true,
+          "created_at": "2026-03-16T22:49:49.135000Z",
+          "uuid": "1988d446-8cdb-4368-8bdc-cd786abbeade",
+          "created_by": "ef41700c-218b-4107-a4ce-89ee0cee448d",
+          "title_psy": "Миссисипская шкала посттравматического стрессового расстройства (военный вариант)",
+          "title_client": "Миссисипская шкала (военный вариант)",
+          "description_psy": "Миссисипская шкала ПТСР (военный вариант) — стандартизированный психометрический инструмент для оценки выраженности симптомов посттравматического стрессового расстройства у лиц, участвовавших в боевых действиях. Опросник включает 35 утверждений, охватывающих такие симптомы, как навязчивые воспоминания, ночные кошмары, избегание, эмоциональное онемение, гипервозбуждение и депрессия. Методика используется для диагностики, оценки динамики состояния и планирования психотерапевтических вмешательств.",
+          "instruction_psy": "1. Обеспечьте комфортную и конфиденциальную обстановку.\\n2. Поясните респонденту, что тест оценивает его текущее эмоциональное и психологическое состояние в связи с боевым опытом.\\n3. Инструктируйте отвечать на каждое утверждение, выбирая значение от 1 до 5, где 1 = «Совершенно неверно», 5 = «Совершенно верно».\\n4. При обработке учитывайте пункты с прямым и обратным подсчётом баллов.\\n5. Суммируйте результаты: значения выше 100 указывают на выраженное влияние травмы и возможное наличие ПТСР.\\n6. Используйте результаты в сочетании с клиническим интервью и другими диагностическими методами.\\n7. При высоких показателях предложите направление на специализированную психиатрическую или психотерапевтическую помощь.",
+          "instruction_client": "Вам будет предложен список утверждений, связанных с вашим эмоциональным состоянием после боевых действий. Для каждого выберите один вариант ответа:\\n1 — Совершенно неверно\\n2 — Иногда неверно\\n3 — До некоторой степени верно\\n4 — Верно\\n5 — Совершенно верно\\nОтвечайте честно и исходя из вашего текущего состояния.",
+          "key_description": "Шкала для оценки выраженности симптомов ПТСР у военных. Баллы суммируются, учитывая прямой и обратный подсчёт. Итоговое значение выше 100 баллов указывает на выраженное влияние травматического опыта.",
+          "is_active": true,
+          "title_psy_eng": "Mississippi Scale of Post-traumatic Stress Disorder (military version)",
+          "title_client_eng": "Mississippi Scale for PTSD  (military version)",
+          "description_psy_eng": "The Mississippi Scale for PTSD (military version) is a standardized psychometric tool for assessing the severity of symptoms of post-traumatic stress disorder in people who participated in combat. The questionnaire includes 35 statements covering symptoms such as obsessive memories, nightmares, avoidance, emotional numbness, hyperarousal, and depression. The technique is used for diagnosis, assessment of the dynamics of the condition, and planning of psychotherapeutic interventions.",
+          "instruction_psy_eng": "1. Provide a comfortable and confidential environment.\\n2. Explain to the respondent that the test evaluates their current emotional and psychological state in connection with combat experience.\\n3. Instruct them to respond to each statement by choosing a value from 1 to 5, where 1 = \"Completely incorrect\" and 5 = \"Absolutely correct\".\\n4. When processing, take into account the points with forward and reverse scoring.\\n5. Summarize the results: values above 100 indicate a pronounced impact of trauma and the possible presence of PTSD.\\n6. Use the results in combination with clinical interviews and other diagnostic methods.\\n7. If the rates are high, offer the patient specialized psychiatric or psychotherapeutic care.",
+          "instruction_client_eng": "You will be offered a list of statements related to your emotional state after the combat operations. Please, choose one answer option for each one:\\n1 — Completely incorrect\\n2 — Sometimes wrong\\n3 — True to some extent\\n4 — Correct\\n5 — Absolutely correct\\nPlease, provide honest answers relying on your current state.",
+          "key_description_eng": "A scale for assessing the severity of PTSD symptoms in the military. The scores are summed by counting forward and backward. A final score above 100 points indicates a pronounced effect of the traumatic experience."
+        },
+        {
+          "activity_test_uuid": "233b499b-dc59-4229-ae40-a5272e340fac",
+          "activity_uuid": "be4a3a39-6a2d-4469-841c-4d42f6ff8be6",
+          "test_uuid": "cdba9e05-27bd-4c9c-8715-4f51f2d480f1",
+          "ord": 1,
+          "is_required": true,
+          "created_at": "2026-03-16T22:49:53.373000Z",
+          "uuid": "cdba9e05-27bd-4c9c-8715-4f51f2d480f1",
+          "created_by": "ef41700c-218b-4107-a4ce-89ee0cee448d",
+          "title_psy": "Миссисипская шкала посттравматического стрессового расстройства (гражданский вариант)",
+          "title_client": "Миссисипская шкала (гражданский вариант)",
+          "description_psy": "Миссисипская шкала ПТСР (гражданский вариант) — психометрический инструмент для оценки выраженности симптомов посттравматического стрессового расстройства у лиц, переживших травматические события в мирное время (аварии, стихийные бедствия, насилие, утрата близких и др.). Опросник включает 35 утверждений, охватывающих ключевые проявления ПТСР: повторные переживания травмы, избегающее поведение, эмоциональное онемение, повышенную возбудимость и сопутствующие эмоциональные расстройства. Применяется в психиатрической, клинической и консультативной практике для диагностики и мониторинга состояния.",
+          "instruction_psy": "1. Обеспечьте респонденту спокойную, безопасную и конфиденциальную обстановку.\\n2. Объясните, что тест направлен на оценку его текущего состояния, связанного с пережитой травмой.\\n3. Инструктируйте отвечать на каждое утверждение, выбирая значение от 1 до 5, где 1 = «Совершенно неверно», 5 = «Совершенно верно».\\n4. При подсчёте учитывайте пункты с прямым и обратным кодированием.\\n5. Суммируйте баллы: итоговое значение выше 100 указывает на выраженное влияние травмы и возможное наличие ПТСР.\\n6. Рекомендуется использовать результаты совместно с клиническим интервью и другими диагностическими методами.\\n7. В случае высоких значений предложите пациенту специализированную помощь психиатра или психотерапевта.",
+          "instruction_client": "Вам будет предложен список утверждений о вашем эмоциональном и психологическом состоянии. Для каждого выберите один вариант ответа:\\n1 — Совершенно неверно\\n2 — Иногда неверно\\n3 — До некоторой степени верно\\n4 — Верно\\n5 — Совершенно верно\\nОтвечайте честно и опирайтесь на то, что вы ощущаете в последнее время.",
+          "key_description": "Шкала для оценки выраженности симптомов ПТСР у гражданских лиц. Баллы суммируются с учётом прямого и обратного подсчёта. Итоговое значение выше 100 указывает на выраженное влияние травматического опыта.",
+          "is_active": true,
+          "title_psy_eng": "Mississipi  Scale post -traumatic stressful disorders (civil option)",
+          "title_client_eng": "Mississippi Scale for PTSD (civilian version)",
+          "description_psy_eng": "The Mississippi Scale for PTSD (civilian version) is a psychometric tool for assessing the severity of symptoms of post-traumatic stress disorder in people who have experienced traumatic events in peacetime (accidents, natural disasters, violence, loss of loved ones, etc.). The questionnaire includes 35 statements covering key manifestations of PTSD: repeated re-experiencing of trauma, avoidant behavior, emotional numbness, increased excitability, and concomitant emotional disorders. It is used in psychiatric, clinical, and advisory practice for diagnosis and monitoring of the condition",
+          "instruction_psy_eng": "1. Provide a comfortable and confidential environment.\\n2. Explain to the respondent that the test evaluates their current emotional and psychological state in connection with combat experience.\\n3. Instruct them to respond to each statement by choosing a value from 1 to 5, where 1 = \"Completely incorrect\" and 5 = \"Absolutely correct\".\\n4. When processing, take into account the points with forward and reverse scoring.\\n5. Summarize the results: values above 100 indicate a pronounced impact of trauma and the possible presence of PTSD.\\n6. Use the results in combination with clinical interviews and other diagnostic methods.\\n7. If the rates are high, offer the patient specialized psychiatric or psychotherapeutic care.",
+          "instruction_client_eng": "You will be offered a list of statements about your emotional and psychological state. Choose one answer option for each one:\\n1 — Absolutely wrong\\n2 — Sometimes incorrect\\n3 — True to some extent\\n4 — Right\\n5 — Quite right\\nPlease provide honest answers relying on what you have been feeling lately.",
+          "key_description_eng": "A scale for assessing the severity of PTSD symptoms in civilians. The points are summed up, taking into account forward and reverse scoring. A total value above 100 indicates a pronounced effect of the traumatic experience"
+        },
+        {
+          "activity_test_uuid": "51254a87-b74e-473a-83c1-ab8f8676ce19",
+          "activity_uuid": "be4a3a39-6a2d-4469-841c-4d42f6ff8be6",
+          "test_uuid": "42ed3a82-4fd7-48a1-adde-2b780de6be6e",
+          "ord": 1,
+          "is_required": true,
+          "created_at": "2026-03-16T22:49:54.839000Z",
+          "uuid": "42ed3a82-4fd7-48a1-adde-2b780de6be6e",
+          "created_by": "ef41700c-218b-4107-a4ce-89ee0cee448d",
+          "title_psy": "Тест-опросник (Корчагина Ю.В.) по выявлению склонности к зависимым формам поведения (употребление алкоголя, табака)",
+          "title_client": "Тест на склонность к зависимому поведению",
+          "description_psy": "Тест-опросник, разработанный Ю.В. Корчагиной, предназначен для выявления склонности к формированию зависимых форм поведения, связанных с употреблением алкоголя и табака. Опросник позволяет оценить уровень предрасположенности к аддиктивному поведению на основе анализа установок, привычек и личностных особенностей. Рекомендуется для применения в психопрофилактике, наркологии и консультативной практике. Методика не является диагностическим инструментом в узком клиническом смысле, но служит индикатором риска и необходимостью углублённого обследования.",
+          "instruction_psy": "1. Обеспечьте спокойную обстановку для заполнения опросника.\\n2. Поясните респонденту, что тест оценивает склонность к зависимому поведению, а не ставит диагноз.\\n3. Инструктируйте отвечать на утверждения только «согласен» или «не согласен».\\n4. За каждый ответ «согласен» начисляйте 1 балл.\\n5. После завершения теста подсчитайте сумму баллов:\\n   — до 13 — риск не выражен (НВ)\\n   — 14–16 — умеренно выраженный риск (УВ)\\n   — 17 и более — выраженные признаки склонности (СВ)\\n6. Обсудите с респондентом результаты и при необходимости дайте рекомендации по профилактике или обращению к специалисту.",
+          "instruction_client": "Прочитайте каждое утверждение и отметьте его, если вы согласны. За каждый положительный ответ начисляется 1 балл. После окончания теста сложите все баллы и посмотрите, в какой диапазон попал ваш результат:\\n— до 13 баллов — риск не выражен\\n— 14–16 баллов — умеренный риск\\n— 17 и более — выраженные признаки склонности\\nОтвечайте честно, чтобы результат был максимально полезным.",
+          "key_description": "Подсчёт: каждый положительный ответ = 1 балл. Интерпретация: до 13 — риск не выражен, 14–16 — умеренный риск, 17+ — выраженные признаки склонности.",
+          "is_active": true,
+          "title_psy_eng": "Test questionnaire (Korchagina Yu.V.) to identify the propensity for addictive behaviors (alcohol, tobacco consumption).",
+          "title_client_eng": "AAddictive behavior inclination test",
+          "description_psy_eng": "The test questionnaire developed by Yu. V. Korchagina is designed to identify the tendency to form addictive behaviors associated with alcohol and tobacco use. The questionnaire allows you to assess the level of predisposition to addictive behavior based on the analysis of attitudes, habits, and personality traits. It is recommended for use in psychoprophylaxis, narcology, and counseling practice. The technique is not a diagnostic tool in the narrow clinical sense, but it serves as an indicator of risk and the need for in-depth examination.",
+          "instruction_psy_eng": "1. Provide a calm environment for completing the questionnaire.\\n2. Explain to the respondent that the test evaluates addiction, not a diagnosis.\\n3. Instruct respondents to respond to statements only with \"I agree\" or \"I disagree\".\\n4. For each answer \"I agree\", award 1 point.\\n5. After completing the test, calculate the total points:\\n— up to 13 — risk is not pronounced (HB)\\n— 14–16 — risk is pronounced moderately (HC)\\n— 17 or more — pronounced signs of addiction (CB)\\n6. Discuss the results with the patient and, if necessary, give recommendations on prevention or referral to a specialist.",
+          "instruction_client_eng": "Read each statement and mark it if you agree. 1 point is awarded for each positive response. After completing the test, add up all the points and see what range your result falls into:\\n— up to 13 points — risk is not pronounced\\n— 14–16 points — moderate risk\\n— 17 or more — pronounced signs of addiction\\nPlease provide honest answers to make the result as useful as possible.",
+          "key_description_eng": "Count: every positive answer = 1 score. Interpretation: to 13 — risk Not expressed, 14–16 — moderate risk, 17+ — expressed Signs inclinations."
+        },
+        {
+          "activity_test_uuid": "0ed8d566-c989-422d-9e3d-0a9acf546f8c",
+          "activity_uuid": "be4a3a39-6a2d-4469-841c-4d42f6ff8be6",
+          "test_uuid": "763ebc8b-4575-4193-a49b-a6a660b115c2",
+          "ord": 1,
+          "is_required": true,
+          "created_at": "2026-03-16T22:49:52.006000Z",
+          "uuid": "763ebc8b-4575-4193-a49b-a6a660b115c2",
+          "created_by": "ef41700c-218b-4107-a4ce-89ee0cee448d",
+          "title_psy": "Диагностический опросник «Одиночество» (С.Г. Корчагина)",
+          "title_client": "Тест на уровень одиночества",
+          "description_psy": "Диагностический опросник «Одиночество» (С.Г. Корчагина) предназначен для количественной оценки выраженности переживания одиночества у испытуемого. Методика охватывает когнитивные, эмоциональные и поведенческие аспекты субъективного чувства изоляции и неудовлетворённости межличностными контактами. Может применяться в клинической психологии, социальной работе, консультативной практике и исследовательских проектах для выявления степени переживания одиночества и планирования психокоррекционных мероприятий.",
+          "instruction_psy": "1. Обеспечьте испытуемому спокойную обстановку и настрой на честные ответы.\\n2. Поясните, что тест оценивает субъективное переживание одиночества, а не ставит диагноз.\\n3. Озвучьте или предоставьте бланк с 12 вопросами и 4 вариантами ответа.\\n4. Инструктируйте выбрать тот вариант, который наиболее точно отражает текущее состояние:\\n   — Всегда = 4 балла\\n   — Часто = 3 балла\\n   — Иногда = 2 балла\\n   — Никогда = 1 балл\\n5. Суммируйте баллы по всем вопросам.\\n6. Интерпретируйте результат:\\n   — 12–16 баллов — нет переживания одиночества\\n   — 17–27 — неглубокое переживание возможного одиночества\\n   — 28–38 — глубокое переживание актуального одиночества\\n   — 39–48 — очень глубокое переживание одиночества\\n7. При высоких показателях предложите клиенту дополнительные консультации и, при необходимости, психологическую поддержку.",
+          "instruction_client": "Вам будут предложены 12 вопросов и 4 варианта ответа:\\n— Всегда (4 балла)\\n— Часто (3 балла)\\n— Иногда (2 балла)\\n— Никогда (1 балл)\\nВыберите тот вариант, который наиболее точно отражает ваше текущее состояние. По сумме баллов вы сможете узнать уровень переживания одиночества:\\n— 12–16 — нет переживания одиночества\\n— 17–27 — неглубокое переживание\\n— 28–38 — глубокое переживание\\n— 39–48 — очень глубокое переживание",
+          "key_description": "Оценка выраженности переживания одиночества по сумме баллов. Баллы за ответы: Всегда=4, Часто=3, Иногда=2, Никогда=1. Интерпретация: 12–16 — нет переживания; 17–27 — неглубокое; 28–38 — глубокое; 39–48 — очень глубокое переживание одиночества.",
+          "is_active": true,
+          "title_psy_eng": "Diagnostic questionnaire \"Loneliness\" (S.G. Korchagina)",
+          "title_client_eng": "Loneliness Level Test",
+          "description_psy_eng": "The diagnostic questionnaire “Loneliness” (S.G. Korchagina) is designed to quantify the severity of loneliness in the subject. The methodology covers cognitive, emotional, and behavioral aspects of subjective feelings of isolation and dissatisfaction with interpersonal contacts. It can be used in clinical psychology, social work, counseling practice, and research projects to identify the degree of loneliness and to plan psychocorrective measures.",
+          "instruction_psy_eng": "1. Provide the subject with a calm environment and foster a mood conducive to honest answers.\\n2. Explain that the test evaluates the subjective experience of loneliness, rather than providing a diagnosis.\\n3. Administer a questionnaire with 12 questions and 4 possible answers.\\n4. Instruct the subject to choose the option that most accurately reflects their current state:\\n— Always = 4 points\\n   — Often = 3 points\\n   — Sometimes = 2 points\\n   — Never = 1 point\\n5. Sum the scores for all questions.\\n6. Interpret the result:\\n— 12–16 points: no experience of loneliness\\n   — 17–27 points: a mild experience of possible loneliness\\n   — 28–38 points: a deep experience of actual loneliness\\n   — 39–48 points: a very deep experience of loneliness\\n7. If the scores are high, offer the client additional consultations and, psychological support if necessary.",
+          "instruction_client_eng": "You will be offered 12 questions and 4 possible answers.:\\n— Always (4 points)\\n— Often (3 points)\\n— Sometimes (2 points)\\n— Never (1 point)\\nChoose the option that most accurately reflects your current condition. By the sum of the points, you can find out the level of loneliness experience.:\\n— 12-16 — no experience of loneliness\\n— 17-27 — shallow experience\\n— 28-38 — deep experience\\n— 39-48 — very deep experience.",
+          "key_description_eng": "Loneliness severity assessment according to the sum of the points. Scores for answers: Always=4, Often=3, Sometimes=2, Never=1. Interpretation: 12–16 — no experience; 17–27 — shallow; 28–38 — deep; 39–48 — very deep experience of loneliness."
         }
-    ],
-    "m_ProviderIds": [
-        "UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider",
-        "UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider"
-    ],
-    "m_InternalIds": [
-        "Assets/_Medverse/Ress/Configs/Maps/Beach.asset",
-        "Assets/_Medverse/Ress/Configs/Maps/Forest.asset",
-        "https://github.com/ini-dev2/ss/raw/refs/heads/main/Map/92425a42e8d842cd35248bc9b3cbfedb_unitybuiltinshaders_14cf5a18839c7ae77185fc0d87bf1fa8.bundle",
-        "https://github.com/ini-dev2/ss/raw/refs/heads/main/Map/mapdata_assets_beach_e5773e1e1d0f4000d6960371de7d9a7a.bundle",
-        "https://github.com/ini-dev2/ss/raw/refs/heads/main/Map/mapdata_assets_forest_68f6067b11c6f6e40b26ae8ebde2dfb3.bundle"
-    ],
-    "m_KeyDataString": "CgAAAAAFAAAAQmVhY2gAIAAAADAzZTE4OTdkM2MxNTExMDRmOWZiZWQxODlmOTM0N2NlACQAAAAwYWI5MDA0ZS0zYjA3LTRkMzEtYTQ5MS1mODE3ZTNkNDY2MzcABgAAAEZvcmVzdAAgAAAAZDc1NzQwMDBjNTg1MzQ0NGQ4OTViOTY4YjNkNGYwNjMAJAAAAGIzODVlY2FiLTY3NDQtNDJiOC1hNDYxLTgwYTc2MDAxNWRhNgBcAAAAOTI0MjVhNDJlOGQ4NDJjZDM1MjQ4YmM5YjNjYmZlZGJfdW5pdHlidWlsdGluc2hhZGVyc18xNGNmNWExODgzOWM3YWU3NzE4NWZjMGQ4N2JmMWZhOC5idW5kbGUAPAAAAG1hcGRhdGFfYXNzZXRzX2JlYWNoX2U1NzczZTFlMWQwZjQwMDBkNjk2MDM3MWRlN2Q5YTdhLmJ1bmRsZQA9AAAAbWFwZGF0YV9hc3NldHNfZm9yZXN0XzY4ZjYwNjdiMTFjNmY2ZTQwYjI2YWU4ZWJkZTJkZmIzLmJ1bmRsZQAJAAAAOTY0OTUxOTE1",
-    "m_BucketDataString": "CgAAAAQAAAABAAAAAAAAAA4AAAABAAAAAAAAADMAAAABAAAAAAAAAFwAAAABAAAAAQAAAGcAAAABAAAAAQAAAIwAAAABAAAAAQAAALUAAAABAAAAAgAAABYBAAABAAAAAwAAAFcBAAABAAAABAAAAJkBAAACAAAAAwAAAAIAAAA=",
-    "m_EntryDataString": "BQAAAAAAAAAAAAAACQAAAEO7lqD/////AAAAAAAAAAABAAAAAAAAAAgAAABPHAkC/////wMAAAAAAAAAAgAAAAEAAAD/////AAAAAAAAAAAGAAAAAQAAAAMAAAABAAAA/////wAAAABxAwAABwAAAAEAAAAEAAAAAQAAAP////8AAAAAwAYAAAgAAAABAAAA",
-    "m_ExtraDataString": "B0xVbml0eS5SZXNvdXJjZU1hbmFnZXIsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsSlVuaXR5RW5naW5lLlJlc291cmNlTWFuYWdlbWVudC5SZXNvdXJjZVByb3ZpZGVycy5Bc3NldEJ1bmRsZVJlcXVlc3RPcHRpb25z1AIAAHsAIgBtAF8ASABhAHMAaAAiADoAIgAxADQAYwBmADUAYQAxADgAOAAzADkAYwA3AGEAZQA3ADcAMQA4ADUAZgBjADAAZAA4ADcAYgBmADEAZgBhADgAIgAsACIAbQBfAEMAcgBjACIAOgAxADUANwA4ADkAMwA3ADcANAAyACwAIgBtAF8AVABpAG0AZQBvAHUAdAAiADoAMAAsACIAbQBfAEMAaAB1AG4AawBlAGQAVAByAGEAbgBzAGYAZQByACIAOgBmAGEAbABzAGUALAAiAG0AXwBSAGUAZABpAHIAZQBjAHQATABpAG0AaQB0ACIAOgAtADEALAAiAG0AXwBSAGUAdAByAHkAQwBvAHUAbgB0ACIAOgAwACwAIgBtAF8AQgB1AG4AZABsAGUATgBhAG0AZQAiADoAIgA5ADIANAAyADUAYQA0ADIAZQA4AGQAOAA0ADIAYwBkADMANQAyADQAOABiAGMAOQBiADMAYwBiAGYAZQBkAGIAXwB1AG4AaQB0AHkAYgB1AGkAbAB0AGkAbgBzAGgAYQBkAGUAcgBzACIALAAiAG0AXwBBAHMAcwBlAHQATABvAGEAZABNAG8AZABlACIAOgAwACwAIgBtAF8AQgB1AG4AZABsAGUAUwBpAHoAZQAiADoAOQA5ADgAOAA3ACwAIgBtAF8AVQBzAGUAQwByAGMARgBvAHIAQwBhAGMAaABlAGQAQgB1AG4AZABsAGUAcwAiADoAdAByAHUAZQAsACIAbQBfAFUAcwBlAFUAVwBSAEYAbwByAEwAbwBjAGEAbABCAHUAbgBkAGwAZQBzACIAOgBmAGEAbABzAGUALAAiAG0AXwBDAGwAZQBhAHIATwB0AGgAZQByAEMAYQBjAGgAZQBkAFYAZQByAHMAaQBvAG4AcwBXAGgAZQBuAEwAbwBhAGQAZQBkACIAOgBmAGEAbABzAGUAfQAHTFVuaXR5LlJlc291cmNlTWFuYWdlciwgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGxKVW5pdHlFbmdpbmUuUmVzb3VyY2VNYW5hZ2VtZW50LlJlc291cmNlUHJvdmlkZXJzLkFzc2V0QnVuZGxlUmVxdWVzdE9wdGlvbnOyAgAAewAiAG0AXwBIAGEAcwBoACIAOgAiAGUANQA3ADcAMwBlADEAZQAxAGQAMABmADQAMAAwADAAZAA2ADkANgAwADMANwAxAGQAZQA3AGQAOQBhADcAYQAiACwAIgBtAF8AQwByAGMAIgA6ADIANgA3ADQAMQAzADUAOQA3ADAALAAiAG0AXwBUAGkAbQBlAG8AdQB0ACIAOgAwACwAIgBtAF8AQwBoAHUAbgBrAGUAZABUAHIAYQBuAHMAZgBlAHIAIgA6AGYAYQBsAHMAZQAsACIAbQBfAFIAZQBkAGkAcgBlAGMAdABMAGkAbQBpAHQAIgA6AC0AMQAsACIAbQBfAFIAZQB0AHIAeQBDAG8AdQBuAHQAIgA6ADAALAAiAG0AXwBCAHUAbgBkAGwAZQBOAGEAbQBlACIAOgAiADAANQA3ADUANwAwAGEAOQA0AGUANgBkAGUANAA3ADcAYgA4ADYAZQAwAGUANgA4ADMANwAzADMANwA2ADQANQAiACwAIgBtAF8AQQBzAHMAZQB0AEwAbwBhAGQATQBvAGQAZQAiADoAMAAsACIAbQBfAEIAdQBuAGQAbABlAFMAaQB6AGUAIgA6ADkANgAxADYAMQA2ADQAOQAsACIAbQBfAFUAcwBlAEMAcgBjAEYAbwByAEMAYQBjAGgAZQBkAEIAdQBuAGQAbABlAHMAIgA6AHQAcgB1AGUALAAiAG0AXwBVAHMAZQBVAFcAUgBGAG8AcgBMAG8AYwBhAGwAQgB1AG4AZABsAGUAcwAiADoAZgBhAGwAcwBlACwAIgBtAF8AQwBsAGUAYQByAE8AdABoAGUAcgBDAGEAYwBoAGUAZABWAGUAcgBzAGkAbwBuAHMAVwBoAGUAbgBMAG8AYQBkAGUAZAAiADoAZgBhAGwAcwBlAH0AB0xVbml0eS5SZXNvdXJjZU1hbmFnZXIsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsSlVuaXR5RW5naW5lLlJlc291cmNlTWFuYWdlbWVudC5SZXNvdXJjZVByb3ZpZGVycy5Bc3NldEJ1bmRsZVJlcXVlc3RPcHRpb25zsAIAAHsAIgBtAF8ASABhAHMAaAAiADoAIgA2ADgAZgA2ADAANgA3AGIAMQAxAGMANgBmADYAZQA0ADAAYgAyADYAYQBlADgAZQBiAGQAZQAyAGQAZgBiADMAIgAsACIAbQBfAEMAcgBjACIAOgAyADAAMQAzADkANwAwADUANAA1ACwAIgBtAF8AVABpAG0AZQBvAHUAdAAiADoAMAAsACIAbQBfAEMAaAB1AG4AawBlAGQAVAByAGEAbgBzAGYAZQByACIAOgBmAGEAbABzAGUALAAiAG0AXwBSAGUAZABpAHIAZQBjAHQATABpAG0AaQB0ACIAOgAtADEALAAiAG0AXwBSAGUAdAByAHkAQwBvAHUAbgB0ACIAOgAwACwAIgBtAF8AQgB1AG4AZABsAGUATgBhAG0AZQAiADoAIgA2ADUAMAAyAGEANwAyADYAMgA3AGQANgBmADYANwA4ADUAYwAyAGEAMQBmADEAMABiADMANAA4ADYAOQAzADQAIgAsACIAbQBfAEEAcwBzAGUAdABMAG8AYQBkAE0AbwBkAGUAIgA6ADAALAAiAG0AXwBCAHUAbgBkAGwAZQBTAGkAegBlACIAOgAyADUANwA1ADUANwA2ACwAIgBtAF8AVQBzAGUAQwByAGMARgBvAHIAQwBhAGMAaABlAGQAQgB1AG4AZABsAGUAcwAiADoAdAByAHUAZQAsACIAbQBfAFUAcwBlAFUAVwBSAEYAbwByAEwAbwBjAGEAbABCAHUAbgBkAGwAZQBzACIAOgBmAGEAbABzAGUALAAiAG0AXwBDAGwAZQBhAHIATwB0AGgAZQByAEMAYQBjAGgAZQBkAFYAZQByAHMAaQBvAG4AcwBXAGgAZQBuAEwAbwBhAGQAZQBkACIAOgBmAGEAbABzAGUAfQA=",
-    "m_resourceTypes": [
-        {
-            "m_AssemblyName": "Medverse, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "m_ClassName": "Medverse.Map"
-        },
-        {
-            "m_AssemblyName": "Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "m_ClassName": "UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource"
-        }
-    ],
-    "m_InternalIdPrefixes": []
+      ]
+    }
+  ]
 }
